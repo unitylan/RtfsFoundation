@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Stories - Reach for the Stars Foundation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-lato bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-[#002B5B] text-white shadow-lg sticky top-0 z-50 h-24">
+        <div class="container mx-auto px-4 h-full relative">
+            
+            <div class="flex items-center justify-between h-full">
+                
+                <!-- Logo Wrapper -->
+                <a href="index.html" class="absolute left-4 top-1/2 -translate-y-1/2">
+                    <img 
+                        src="images/logo.webp" 
+                        alt="Reach for the Stars Logo" 
+                        class="h-32 w-auto pointer-events-auto"
+                    >
+                </a>
+    
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-6 font-medium ml-auto">
+                    <a href="index.html" class="hover:text-[#FFD700] transition">Home</a>
+                    <a href="about.html" class="hover:text-[#FFD700] transition">About Us</a>
+                    <a href="programs.html" class="hover:text-[#FFD700] transition">Programs</a>
+                    <a href="get-involved.html" class="hover:text-[#FFD700] transition">Get Involved</a>
+                    <a href="news.html" class="hover:text-[#FFD700] transition border-b-2 border-[#FFD700]">News & Stories</a>
+                    <a href="gallery.html" class="hover:text-[#FFD700] transition">Gallery</a>
+                    <a href="contact.html" class="hover:text-[#FFD700] transition">Contact</a>
+                </div>
+    
+                <!-- Mobile Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-2xl text-[#002B5B] ml-auto">
+                    ☰
+                </button>
+            </div>
+    
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-2 space-y-2 font-medium">
+                <a href="index.html" class="block py-2 hover:text-[#FFD700]">Home</a>
+                <a href="about.html" class="block py-2 hover:text-[#FFD700]">About Us</a>
+                <a href="programs.html" class="block py-2 hover:text-[#FFD700]">Programs</a>
+                <a href="get-involved.html" class="block py-2 hover:text-[#FFD700]">Get Involved</a>
+                <a href="news.html" class="block py-2 hover:text-[#FFD700]">News & Stories</a>
+                <a href="gallery.html" class="block py-2 hover:text-[#FFD700]">Gallery</a>
+                <a href="contact.html" class="block py-2 hover:text-[#FFD700]">Contact</a>
+            </div>
+    
+        </div>
+    </nav>
+    
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-[#002B5B] to-[#003d7a] text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold font-poppins mb-4">News & Stories</h1>
+            <p class="text-xl text-gray-200">Updates, success stories, and testimonials from our community</p>
+        </div>
+    </section>
+
+    <!-- Stories Grid -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Story 1 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="h-48 bg-gradient-to-br from-[#002B5B] to-[#003d7a] flex items-center justify-center">
+                        <img src="images/story1.jpg" alt="Community Outreach" class="h-full w-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500">March 15, 2024</span>
+                        <h3 class="text-xl font-bold font-poppins text-[#002B5B] mt-2 mb-3">Sarah's Journey to University</h3>
+                        <p class="text-gray-700 mb-4">
+                            Sarah, a bright 16-year-old from a rural community, has been accepted to study Education at university. Through our mentorship program, she received the support she needed to achieve her dreams...
+                        </p>
+                        <a href="#" class="text-[#002B5B] font-semibold hover:text-[#003d7a] transition">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Story 2 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="h-48 bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center">
+                        <img src="images/story2.jpg" alt="Community Outreach" class="h-full w-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500">March 10, 2024</span>
+                        <h3 class="text-xl font-bold font-poppins text-[#002B5B] mt-2 mb-3">Skills Development Program Success</h3>
+                        <p class="text-gray-700 mb-4">
+                            Our latest digital literacy program graduated 25 youth, with 18 finding employment within 3 months. The program has transformed lives and created new opportunities...
+                        </p>
+                        <a href="#" class="text-[#002B5B] font-semibold hover:text-[#003d7a] transition">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Story 3 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="h-48 bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center">
+                        <img src="images/story3.jpg" alt="Community Outreach" class="h-full w-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500">March 5, 2024</span>
+                        <h3 class="text-xl font-bold font-poppins text-[#002B5B] mt-2 mb-3">Community Outreach Event</h3>
+                        <p class="text-gray-700 mb-4">
+                            Last weekend, we organized a community health and wellness event that brought together over 200 community members. The event featured health screenings, workshops, and resource distribution...
+                        </p>
+                        <a href="#" class="text-[#002B5B] font-semibold hover:text-[#003d7a] transition">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Story 4 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="h-48 bg-gradient-to-br from-[#FFD700] to-yellow-400 flex items-center justify-center">
+                        <img src="images/story4.jpg" alt="Community Outreach" class="h-full w-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500">February 28, 2024</span>
+                        <h3 class="text-xl font-bold font-poppins text-[#002B5B] mt-2 mb-3">Youth Leadership Summit</h3>
+                        <p class="text-gray-700 mb-4">
+                            Our annual Youth Leadership Summit brought together 50 young leaders from across the region. The event featured workshops, networking, and the launch of 5 new youth-led community projects...
+                        </p>
+                        <a href="#" class="text-[#002B5B] font-semibold hover:text-[#003d7a] transition">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Story 5 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="h-48 bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center">
+                        <img src="images/story5.jpg" alt="Community Outreach" class="h-full w-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500">February 20, 2024</span>
+                        <h3 class="text-xl font-bold font-poppins text-[#002B5B] mt-2 mb-3">Corporate Partnership Announcement</h3>
+                        <p class="text-gray-700 mb-4">
+                            We're thrilled to announce a new partnership with [Company Name] that will help us expand our education programs to 3 new communities. This partnership represents a significant step forward...
+                        </p>
+                        <a href="#" class="text-[#002B5B] font-semibold hover:text-[#003d7a] transition">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Story 6 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="h-48 bg-gradient-to-br from-[#002B5B] to-[#003d7a] flex items-center justify-center">
+                        <img src="images/story6.jpg" alt="Community Outreach" class="h-full w-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500">February 15, 2024</span>
+                        <h3 class="text-xl font-bold font-poppins text-[#002B5B] mt-2 mb-3">Testimonial: A Mentor's Perspective</h3>
+                        <p class="text-gray-700 mb-4">
+                            "Being a mentor has been one of the most rewarding experiences of my life. Watching my mentee grow and achieve their goals has been incredible. The foundation provides excellent support for both mentors and mentees..."
+                        </p>
+                        <a href="#" class="text-[#002B5B] font-semibold hover:text-[#003d7a] transition">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B] text-center mb-12">What People Are Saying</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-yellow-400 text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-700 mb-4 italic">"The foundation gave me hope when I had none. Through their support, I'm now studying at university and planning to give back to my community."</p>
+                    <p class="font-semibold text-[#002B5B]">- Sarah M., Student</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-yellow-400 text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-700 mb-4 italic">"Volunteering with Reach for the Stars has been incredibly fulfilling. The impact we're making is real and tangible."</p>
+                    <p class="font-semibold text-[#002B5B]">- John D., Volunteer</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-yellow-400 text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-700 mb-4 italic">"Our partnership with the foundation has been transformative. We're proud to support such meaningful work."</p>
+                    <p class="font-semibold text-[#002B5B]">- Company Representative</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#002B5B] text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <img src="images/logo.webp" alt="NGO Foundation Logo" class="h-32 ">
+
+                    <p class="text-gray-300">Empowering dreams. Lighting futures.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-[#FFD700] transition">About Us</a></li>
+                        <li><a href="programs.html" class="text-gray-300 hover:text-[#FFD700] transition">Programs</a></li>
+                        <li><a href="news.html" class="text-gray-300 hover:text-[#FFD700] transition">News & Stories</a></li>
+                        <li><a href="gallery.html" class="text-gray-300 hover:text-[#FFD700] transition">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Get Involved</h4>
+                    <ul class="space-y-2">
+                        <li><a href="get-involved.html" class="text-gray-300 hover:text-[#FFD700] transition">Volunteer</a></li>
+                        <li><a href="get-involved.html#donate" class="text-gray-300 hover:text-[#FFD700] transition">Donate</a></li>
+                        <li><a href="get-involved.html#partners" class="text-gray-300 hover:text-[#FFD700] transition">Partnerships</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-[#FFD700] transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300 text-sm">
+                <p>&copy; 2024 Reach for the Stars Foundation. All rights reserved.</p>
+                <p class="mt-2">Registered NGO | <a href="#" class="hover:text-[#FFD700]">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

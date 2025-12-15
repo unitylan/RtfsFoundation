@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Reach for the Stars Foundation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-lato bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-[#002B5B] text-white shadow-lg sticky top-0 z-50 h-24">
+        <div class="container mx-auto px-4 h-full relative">
+            
+            <div class="flex items-center justify-between h-full">
+                
+                <!-- Logo Wrapper -->
+                <a href="index.html" class="absolute left-4 top-1/2 -translate-y-1/2">
+                    <img 
+                        src="images/logo.webp" 
+                        alt="Reach for the Stars Logo" 
+                        class="h-32 w-auto pointer-events-auto"
+                    >
+                </a>
+    
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-6 font-medium ml-auto">
+                    <a href="index.html" class="hover:text-[#FFD700] transition">Home</a>
+                    <a href="about.html" class="hover:text-[#FFD700] transition">About Us</a>
+                    <a href="programs.html" class="hover:text-[#FFD700] transition">Programs</a>
+                    <a href="get-involved.html" class="hover:text-[#FFD700] transition ">Get Involved</a>
+                    <a href="news.html" class="hover:text-[#FFD700] transition">News & Stories</a>
+                    <a href="gallery.html" class="hover:text-[#FFD700] transition border-b-2 border-[#FFD700]">Gallery</a>
+                    <a href="contact.html" class="hover:text-[#FFD700] transition">Contact</a>
+                </div>
+    
+                <!-- Mobile Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-2xl text-[#002B5B] ml-auto">
+                    ☰
+                </button>
+            </div>
+    
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-2 space-y-2 font-medium">
+                <a href="index.html" class="block py-2 hover:text-[#FFD700]">Home</a>
+                <a href="about.html" class="block py-2 hover:text-[#FFD700]">About Us</a>
+                <a href="programs.html" class="block py-2 hover:text-[#FFD700]">Programs</a>
+                <a href="get-involved.html" class="block py-2 hover:text-[#FFD700]">Get Involved</a>
+                <a href="news.html" class="block py-2 hover:text-[#FFD700]">News & Stories</a>
+                <a href="gallery.html" class="block py-2 hover:text-[#FFD700]">Gallery</a>
+                <a href="contact.html" class="block py-2 hover:text-[#FFD700]">Contact</a>
+            </div>
+    
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-[#002B5B] to-[#003d7a] text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold font-poppins mb-4">Gallery</h1>
+            <p class="text-xl text-gray-200">Capturing moments of hope, growth, and transformation</p>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B] text-center mb-8">Our Work in Action</h2>
+                <div class="bg-gray-200 rounded-lg overflow-hidden shadow-lg aspect-video flex items-center justify-center">
+                    <div class="text-center p-8">
+                        <div class="text-6xl mb-4"></div>
+                        <p class="text-xl text-gray-600 mb-4">Video Coming Soon</p>
+                        <!-- Replace with: <iframe class="w-full h-full" src="YOUR_YOUTUBE_EMBED_URL" frameborder="0" allowfullscreen></iframe> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B] text-center mb-12">Photo Gallery</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Photo 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+                    <div class="h-64 bg-gradient-to-br from-[#002B5B] to-[#003d7a] flex items-center justify-center">
+                        <div class="text-6xl"></div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold font-poppins text-[#002B5B] mb-2">Education Program</h3>
+                        <p class="text-sm text-gray-600">Students engaged in tutoring sessions at our community center</p>
+                    </div>
+                </div>
+
+                <!-- Photo 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+                    <div class="h-64 bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center">
+                        <div class="text-6xl"></div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold font-poppins text-[#002B5B] mb-2">Skills Workshop</h3>
+                        <p class="text-sm text-gray-600">Youth participating in digital literacy training workshop</p>
+                    </div>
+                </div>
+
+                <!-- Photo 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+                    <div class="h-64 bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center">
+                        <div class="text-6xl"></div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold font-poppins text-[#002B5B] mb-2">Community Event</h3>
+                        <p class="text-sm text-gray-600">Community members at our health and wellness outreach event</p>
+                    </div>
+                </div>
+
+                <!-- Photo 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+                    <div class="h-64 bg-gradient-to-br from-[#FFD700] to-yellow-400 flex items-center justify-center">
+                        <div class="text-6xl"></div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold font-poppins text-[#002B5B] mb-2">Youth Leadership</h3>
+                        <p class="text-sm text-gray-600">Young leaders presenting their community project proposals</p>
+                    </div>
+                </div>
+
+                <!-- Photo 5 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+                    <div class="h-64 bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center">
+                        <div class="text-6xl"></div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold font-poppins text-[#002B5B] mb-2">Graduation Ceremony</h3>
+                        <p class="text-sm text-gray-600">Celebrating the achievements of our program graduates</p>
+                    </div>
+                </div>
+
+                <!-- Photo 6 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+                    <div class="h-64 bg-gradient-to-br from-[#002B5B] to-[#003d7a] flex items-center justify-center">
+                        <div class="text-6xl"></div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold font-poppins text-[#002B5B] mb-2">Volunteer Team</h3>
+                        <p class="text-sm text-gray-600">Our dedicated volunteers at a team building event</p>
+                    </div>
+                </div>
+
+                <!-- Photo 7 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+                    <div class="h-64 bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center">
+                        <div class="text-6xl"></div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold font-poppins text-[#002B5B] mb-2">Creative Workshop</h3>
+                        <p class="text-sm text-gray-600">Children expressing themselves through art and creativity</p>
+                    </div>
+                </div>
+
+                <!-- Photo 8 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+                    <div class="h-64 bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center">
+                        <div class="text-6xl"></div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold font-poppins text-[#002B5B] mb-2">Awards Ceremony</h3>
+                        <p class="text-sm text-gray-600">Recognizing outstanding achievements and progress</p>
+                    </div>
+                </div>
+
+                <!-- Photo 9 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+                    <div class="h-64 bg-gradient-to-br from-[#FFD700] to-yellow-400 flex items-center justify-center">
+                        <div class="text-6xl"></div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold font-poppins text-[#002B5B] mb-2">Donation Drive</h3>
+                        <p class="text-sm text-gray-600">Community members contributing books and supplies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#002B5B] text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <img src="images/logo.webp" alt="NGO Foundation Logo" class="h-32 ">
+
+                    <p class="text-gray-300">Empowering dreams. Lighting futures.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-[#FFD700] transition">About Us</a></li>
+                        <li><a href="programs.html" class="text-gray-300 hover:text-[#FFD700] transition">Programs</a></li>
+                        <li><a href="news.html" class="text-gray-300 hover:text-[#FFD700] transition">News & Stories</a></li>
+                        <li><a href="gallery.html" class="text-gray-300 hover:text-[#FFD700] transition">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Get Involved</h4>
+                    <ul class="space-y-2">
+                        <li><a href="get-involved.html" class="text-gray-300 hover:text-[#FFD700] transition">Volunteer</a></li>
+                        <li><a href="get-involved.html#donate" class="text-gray-300 hover:text-[#FFD700] transition">Donate</a></li>
+                        <li><a href="get-involved.html#partners" class="text-gray-300 hover:text-[#FFD700] transition">Partnerships</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-[#FFD700] transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300 text-sm">
+                <p>&copy; 2024 Reach for the Stars Foundation. All rights reserved.</p>
+                <p class="mt-2">Registered NGO | <a href="#" class="hover:text-[#FFD700]">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

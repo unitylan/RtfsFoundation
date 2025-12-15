@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reach for the Stars Foundation - Empowering Dreams. Lighting Futures.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-lato bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-[#002B5B] text-white shadow-lg sticky top-0 z-50 h-24">
+        <div class="container mx-auto px-4 h-full relative">
+            
+            <div class="flex items-center justify-between h-full">
+                
+                <!-- Logo Wrapper -->
+                <a href="index.html" class="absolute left-4 top-1/2 -translate-y-1/2">
+                    <img 
+                        src="images/logo.webp" 
+                        alt="Reach for the Stars Logo" 
+                        class="h-32 w-auto pointer-events-auto"
+                    >
+                </a>
+    
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-6 font-medium ml-auto">
+                    <a href="index.html" class="hover:text-[#FFD700] transition">Home</a>
+                    <a href="about.html" class="hover:text-[#FFD700] transition">About Us</a>
+                    <a href="programs.html" class="hover:text-[#FFD700] transition">Programs</a>
+                    <a href="get-involved.html" class="hover:text-[#FFD700] transition">Get Involved</a>
+                    <a href="news.html" class="hover:text-[#FFD700] transition">News & Stories</a>
+                    <a href="gallery.html" class="hover:text-[#FFD700] transition">Gallery</a>
+                    <a href="contact.html" class="hover:text-[#FFD700] transition">Contact</a>
+                </div>
+    
+                <!-- Mobile Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-2xl text-[#002B5B] ml-auto">
+                    ☰
+                </button>
+            </div>
+    
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-2 space-y-2 font-medium">
+                <a href="index.html" class="block py-2 hover:text-[#FFD700]">Home</a>
+                <a href="about.html" class="block py-2 hover:text-[#FFD700]">About Us</a>
+                <a href="programs.html" class="block py-2 hover:text-[#FFD700]">Programs</a>
+                <a href="get-involved.html" class="block py-2 hover:text-[#FFD700]">Get Involved</a>
+                <a href="news.html" class="block py-2 hover:text-[#FFD700]">News & Stories</a>
+                <a href="gallery.html" class="block py-2 hover:text-[#FFD700]">Gallery</a>
+                <a href="contact.html" class="block py-2 hover:text-[#FFD700]">Contact</a>
+            </div>
+    
+        </div>
+    </nav>
+    
+<!-- Hero Slider Section -->
+<section class="relative h-[60vh] md:h-[70vh] overflow-hidden">
+
+    <!-- Slides -->
+    <div class="absolute inset-0">
+  
+<!-- Slide 1 (WITH CONTENT) -->
+<div class="slide absolute inset-0 bg-cover bg-center opacity-100 transition-opacity duration-1000"
+style="background-image: url('images/slide1.jpg');">
+
+<!-- Content -->
+<div class="relative z-10 h-full flex items-center">
+<div class="container mx-auto px-6">
+ <div class="max-w-2xl text-left">
+   <h1 class="text-4xl md:text-6xl font-bold font-poppins mb-6 text-white">
+    Empowering Dreams.<br><span class="text-yellow-600">Lighting Futures.</span>
+   </h1>
+   <p class="text-xl md:text-2xl mb-8 text-white">
+     At Reach for the Stars Foundation, we help communities rise through education, empowerment, and hope.
+   </p>
+
+   <div class="flex flex-col sm:flex-row gap-4">
+     <a href="get-involved.html"
+        class="bg-[#FFD700] text-[#002B5B] px-8 py-4 rounded-lg font-semibold hover:bg-yellow-400 transition transform hover:scale-105 shadow-lg">
+       Join Us
+     </a>
+
+     <a href="get-involved.html#donate"
+        class="border-2 border-[#FFD700] text-white px-8 py-4 rounded-lg font-semibold
+               hover:bg-[#FFD700] hover:text-black transition transform hover:scale-105">
+       Donate Now
+     </a>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+
+      <!-- Slide 2 -->
+      <div class="slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000"
+           style="background-image: url('images/slide2.jpg');"></div>
+  
+      <!-- Slide 3 -->
+      <div class="slide absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000"
+           style="background-image: url('images/slide3.jpg');"></div>
+  
+    </div>
+  
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-[#002B5B]/70"></div>
+    
+    <!-- Navigation Dots -->
+    <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex gap-3 z-20">
+      <button class="dot w-3 h-3 rounded-full bg-white/50"></button>
+      <button class="dot w-3 h-3 rounded-full bg-white/50"></button>
+      <button class="dot w-3 h-3 rounded-full bg-white/50"></button>
+    </div>
+  
+  </section>
+      
+    <!-- About Preview -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B] mb-6">Our Mission</h2>
+                <p class="text-lg text-gray-700 mb-8">
+                    We believe every child deserves the opportunity to reach for the stars. Through education, mentorship, and community support, we empower young minds to overcome obstacles and achieve their dreams. Our foundation bridges the gap between potential and opportunity, creating lasting change in communities across the region.
+                </p>
+                <a href="about.html" class="inline-block bg-[#002B5B] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#003d7a] transition">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="py-16 bg-gradient-to-r from-[#002B5B] to-[#003d7a] text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold font-poppins text-center mb-12">Our Impact</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="text-5xl font-bold font-poppins mb-2">
+                        <span class="counter" data-target="200">0</span>+
+                    </div>
+                    <p class="text-xl">Children Educated</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl font-bold font-poppins mb-2">
+                        <span class="counter" data-target="50">0</span>+
+                    </div>
+                    <p class="text-xl">Youth Trained</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl font-bold font-poppins mb-2">
+                        <span class="counter" data-target="10">0</span>+
+                    </div>
+                    <p class="text-xl">Communities Reached</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Featured Story -->
+<section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+  
+      <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B] text-center mb-12">
+        Featured Story
+      </h2>
+  
+      <div class="bg-white rounded-lg shadow-xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
+  
+        <!-- Image Side -->
+        <div class="relative h-[320px] md:h-auto">
+          <img
+            src="images/featured-story.jpg"
+            alt="Sarah's Story"
+            class="w-full h-full object-cover"
+          />
+  
+          <!-- Bottom-left Block -->
+          <div class="absolute bottom-6 left-6 bg-[#002B5B]/90 text-white p-4 rounded-lg max-w-xs">
+            <p class="text-lg italic">
+              “Education gave me wings to fly.”
+            </p>
+            <span class="block mt-2 text-sm text-[#FFD700] font-semibold">
+              — Sarah, Program Beneficiary
+            </span>
+          </div>
+        </div>
+  
+        <!-- Testimonial Content -->
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <span class="uppercase tracking-wider text-sm text-gray-400 mb-3">
+            Success Story
+          </span>
+  
+          <h3 class="text-2xl md:text-3xl font-bold font-poppins text-[#002B5B] mb-6">
+            Sarah’s Journey to Success
+          </h3>
+  
+          <blockquote class="border-l-4 border-[#FFD700] pl-6 mb-6">
+            <p class="text-lg text-gray-700 italic leading-relaxed">
+              Sarah, a bright 16-year-old from a rural community, dreamed of becoming a teacher.
+              Through our Education & Mentorship program, she received tutoring, mentorship,
+              and scholarship support. Today, she is in her second year of university and
+              volunteers with our foundation to inspire other young girls.
+            </p>
+          </blockquote>
+  
+          <p class="text-gray-700 mb-8">
+            Her journey reflects the transformative power of education and community support.
+            With your help, we can create more stories like Sarah’s.
+          </p>
+  
+          <a href="news.html"
+             class="inline-flex items-center gap-2 bg-[#002B5B] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#003d7a] transition w-fit">
+            Read More Stories
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                 viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+<!-- Get Involved Section -->
+<section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+  
+      <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B] text-center mb-12">
+        Get Involved
+      </h2>
+  
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+  
+        <!-- Volunteer -->
+        <div class="relative bg-white rounded-lg shadow-md hover:shadow-xl transition p-8">
+          <!-- Top Strip -->
+          <div class="absolute top-0 left-0 w-full h-2 bg-[#002B5B] rounded-t-lg"></div>
+  
+          <!-- Icon -->
+          <div class="text-[#002B5B] text-3xl mb-4">
+            <i class="fa-solid fa-users"></i>
+          </div>
+  
+          <h3 class="text-2xl font-bold font-poppins text-[#002B5B] mb-4">
+            Volunteer
+          </h3>
+  
+          <p class="text-gray-600 mb-6">
+            Join our team of dedicated volunteers and make a direct impact in your community. Every hour counts.
+          </p>
+  
+          <a href="get-involved.html#volunteer"
+             class="inline-flex items-center gap-2 text-white bg-[#002B5B] px-6 py-3 rounded-lg font-semibold hover:bg-[#003d7a] transition">
+            Sign Up
+            <i class="fa-solid fa-arrow-right text-sm"></i>
+          </a>
+        </div>
+  
+        <!-- Partner -->
+        <div class="relative bg-white rounded-lg shadow-md hover:shadow-xl transition p-8">
+          <!-- Top Strip -->
+          <div class="absolute top-0 left-0 w-full h-2 bg-teal-500 rounded-t-lg"></div>
+  
+          <!-- Icon -->
+          <div class="text-teal-500 text-3xl mb-4">
+            <i class="fa-solid fa-handshake"></i>
+          </div>
+  
+          <h3 class="text-2xl font-bold font-poppins text-[#002B5B] mb-4">
+            Partner
+          </h3>
+  
+          <p class="text-gray-600 mb-6">
+            Corporate partnerships help us scale our impact. Let’s work together to create lasting change.
+          </p>
+  
+          <a href="get-involved.html#partners"
+             class="inline-flex items-center gap-2 text-white bg-[#002B5B] px-6 py-3 rounded-lg font-semibold hover:bg-[#003d7a] transition">
+            Learn More
+            <i class="fa-solid fa-arrow-right text-sm"></i>
+          </a>
+        </div>
+  
+        <!-- Donate -->
+        <div class="relative bg-white rounded-lg shadow-md hover:shadow-xl transition p-8">
+          <!-- Top Strip -->
+          <div class="absolute top-0 left-0 w-full h-2 bg-[#FFD700] rounded-t-lg"></div>
+  
+          <!-- Icon -->
+          <div class="text-[#FFD700] text-3xl mb-4">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+  
+          <h3 class="text-2xl font-bold font-poppins text-[#002B5B] mb-4">
+            Donate
+          </h3>
+  
+          <p class="text-gray-600 mb-6">
+            Your contribution helps us reach more children and communities. Every donation makes a difference.
+          </p>
+  
+          <a href="get-involved.html#donate"
+             class="inline-flex items-center gap-2 text-white bg-[#002B5B] px-6 py-3 rounded-lg font-semibold hover:bg-[#003d7a] transition">
+            Donate Now
+            <i class="fa-solid fa-arrow-right text-sm"></i>
+          </a>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+    <!-- Footer -->
+    <footer class="bg-[#002B5B] text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <img src="images/logo.webp" alt="NGO Foundation Logo" class="h-32 ">
+
+                    <p class="text-gray-300">Empowering dreams. Lighting futures.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-[#FFD700] transition">About Us</a></li>
+                        <li><a href="programs.html" class="text-gray-300 hover:text-[#FFD700] transition">Programs</a></li>
+                        <li><a href="news.html" class="text-gray-300 hover:text-[#FFD700] transition">News & Stories</a></li>
+                        <li><a href="gallery.html" class="text-gray-300 hover:text-[#FFD700] transition">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Get Involved</h4>
+                    <ul class="space-y-2">
+                        <li><a href="get-involved.html" class="text-gray-300 hover:text-[#FFD700] transition">Volunteer</a></li>
+                        <li><a href="get-involved.html#donate" class="text-gray-300 hover:text-[#FFD700] transition">Donate</a></li>
+                        <li><a href="get-involved.html#partners" class="text-gray-300 hover:text-[#FFD700] transition">Partnerships</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-[#FFD700] transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300 text-sm">
+                <p>&copy; 2024 Reach for the Stars Foundation. All rights reserved.</p>
+                <p class="mt-2">Registered NGO | <a href="#" class="hover:text-[#FFD700]">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

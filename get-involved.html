@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved - Reach for the Stars Foundation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-lato bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-[#002B5B] text-white shadow-lg sticky top-0 z-50 h-24">
+        <div class="container mx-auto px-4 h-full relative">
+            
+            <div class="flex items-center justify-between h-full">
+                
+                <!-- Logo Wrapper -->
+                <a href="index.html" class="absolute left-4 top-1/2 -translate-y-1/2">
+                    <img 
+                        src="images/logo.webp" 
+                        alt="Reach for the Stars Logo" 
+                        class="h-32 w-auto pointer-events-auto"
+                    >
+                </a>
+    
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-6 font-medium ml-auto">
+                    <a href="index.html" class="hover:text-[#FFD700] transition">Home</a>
+                    <a href="about.html" class="hover:text-[#FFD700] transition">About Us</a>
+                    <a href="programs.html" class="hover:text-[#FFD700] transition">Programs</a>
+                    <a href="get-involved.html" class="hover:text-[#FFD700] transition border-b-2 border-[#FFD700]">Get Involved</a>
+                    <a href="news.html" class="hover:text-[#FFD700] transition">News & Stories</a>
+                    <a href="gallery.html" class="hover:text-[#FFD700] transition">Gallery</a>
+                    <a href="contact.html" class="hover:text-[#FFD700] transition">Contact</a>
+                </div>
+    
+                <!-- Mobile Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-2xl text-[#002B5B] ml-auto">
+                    ☰
+                </button>
+            </div>
+    
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-2 space-y-2 font-medium">
+                <a href="index.html" class="block py-2 hover:text-[#FFD700]">Home</a>
+                <a href="about.html" class="block py-2 hover:text-[#FFD700]">About Us</a>
+                <a href="programs.html" class="block py-2 hover:text-[#FFD700]">Programs</a>
+                <a href="get-involved.html" class="block py-2 hover:text-[#FFD700]">Get Involved</a>
+                <a href="news.html" class="block py-2 hover:text-[#FFD700]">News & Stories</a>
+                <a href="gallery.html" class="block py-2 hover:text-[#FFD700]">Gallery</a>
+                <a href="contact.html" class="block py-2 hover:text-[#FFD700]">Contact</a>
+            </div>
+    
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-[#002B5B] to-[#003d7a] text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold font-poppins mb-4">Get Involved</h1>
+            <p class="text-xl text-gray-200">Join us in making a difference. Every contribution counts.</p>
+        </div>
+    </section>
+
+<!-- Volunteer Section -->
+<section id="volunteer" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        
+        <!-- Volunteer Form Left -->
+        <div class="bg-gray-50 p-8 rounded-lg shadow-lg">
+          <form id="volunteer-form" class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2">Full Name *</label>
+                <input type="text" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#002B5B]">
+              </div>
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2">Email *</label>
+                <input type="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#002B5B]">
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2">Phone Number *</label>
+                <input type="tel" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#002B5B]">
+              </div>
+              <div>
+                <label class="block text-gray-700 font-semibold mb-2">Availability</label>
+                <select class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#002B5B]">
+                  <option>Weekdays</option>
+                  <option>Weekends</option>
+                  <option>Both</option>
+                  <option>Flexible</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-semibold mb-2">Areas of Interest</label>
+              <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                <label class="flex items-center"><input type="checkbox" class="mr-2"> Tutoring</label>
+                <label class="flex items-center"><input type="checkbox" class="mr-2"> Mentoring</label>
+                <label class="flex items-center"><input type="checkbox" class="mr-2"> Event Planning</label>
+                <label class="flex items-center"><input type="checkbox" class="mr-2"> Skills Training</label>
+                <label class="flex items-center"><input type="checkbox" class="mr-2"> Administration</label>
+                <label class="flex items-center"><input type="checkbox" class="mr-2"> Community Outreach</label>
+              </div>
+            </div>
+            <div>
+              <label class="block text-gray-700 font-semibold mb-2">Tell us about yourself *</label>
+              <textarea required rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#002B5B]"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-[#002B5B] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#003d7a] transition text-lg">
+              Submit Volunteer Application
+            </button>
+          </form>
+        </div>
+  
+        <!-- Volunteer Info Right -->
+        <div class="space-y-6">
+          <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B]">Become a Volunteer</h2>
+          <p class="text-gray-700 text-lg">Join our team and make a real difference in your community. Your time and skills can transform lives.</p>
+          <ul class="space-y-3 text-gray-700">
+            <li><i class="fa-solid fa-check text-black mr-2"></i>Flexible volunteer opportunities</li>
+            <li><i class="fa-solid fa-check text-black mr-2"></i>Hands-on experience in community programs</li>
+            <li><i class="fa-solid fa-check text-black mr-2"></i>Training and mentorship</li>
+            <li><i class="fa-solid fa-check text-black mr-2"></i>Connect with like-minded individuals</li>
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- Donate Section -->
+  <section id="donate" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+  
+        <!-- Donate Info Left -->
+        <div class="space-y-6">
+          <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B]">Make a Donation</h2>
+          <p class="text-gray-700 text-lg">Support our programs and help us create lasting impact. Every contribution counts toward empowering communities.</p>
+          <ul class="space-y-3 text-gray-700">
+            <li><i class="fa-solid fa-check text-black mr-2"></i>One-time and recurring donation options</li>
+            <li><i class="fa-solid fa-check text-black mr-2"></i>Support education and mentorship programs</li>
+            <li><i class="fa-solid fa-check text-black mr-2"></i>Help fund community outreach initiatives</li>
+            <li><i class="fa-solid fa-check text-black mr-2"></i>Contribute to youth empowerment projects</li>
+          </ul>
+        </div>
+  
+        <!-- Donate Form Right -->
+        <div class="bg-white rounded-xl shadow-lg p-8">
+
+            <!-- Amount Selection -->
+            <div class="mb-6">
+                <label class="block text-gray-700 font-semibold mb-3">Select Amount</label>
+
+                <div class="grid grid-cols-2 gap-3 mb-4">
+                    <button class="border-2 border-black text-black py-3 rounded-lg font-semibold hover:bg-yellow-600 hover:text-black transition">R25</button>
+                    <button class="border-2 border-black text-black py-3 rounded-lg font-semibold hover:bg-yellow-600 hover:text-black transition">R50</button>
+                    <button class="border-2 border-black text-black py-3 rounded-lg font-semibold hover:bg-yellow-600 hover:text-black transition">R100</button>
+                    <button class="border-2 border-black text-black py-3 rounded-lg font-semibold hover:bg-yellow-600 hover:text-black transition">R500</button>
+                </div>
+
+                <div class="relative">
+                    <span class="absolute left-3 top-3 text-gray-500">R</span>
+                    <input type="number" placeholder="Enter your own amount"
+                           class="w-full pl-8 pr-4 py-3 border-2 border-gray-300 rounded-lg focus:border-teal focus:outline-none">
+                </div>
+            </div>
+
+            <!-- Submit -->
+            <button class="w-full bg-[#002B5B] text-white py-4 rounded-lg font-semibold text-lg hover:bg-[#003d7a] transition">
+                <i class="fas fa-lock mr-2"></i> Donate Securely
+            </button>
+
+            <p class="text-sm text-gray-500 mt-4 text-center">
+                <i class="fas fa-shield-alt mr-2"></i>Your donation is secure and encrypted
+            </p>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <!-- Corporate Partnerships -->
+  <section id="partners" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B] mb-8">Corporate Partnerships</h2>
+        <p class="text-gray-700 text-lg mb-8">Corporate partnerships help us scale our impact. Let's work together to create lasting change in communities.</p>
+        
+        <ul class="space-y-4 text-gray-700 text-left max-w-3xl mx-auto">
+          <li><i class="fa-solid fa-check text-black mr-2"></i>Brand visibility and recognition as a community partner</li>
+          <li><i class="fa-solid fa-check text-black mr-2"></i>Employee engagement opportunities through volunteering</li>
+          <li><i class="fa-solid fa-check text-black mr-2"></i>Tax benefits for charitable contributions</li>
+          <li><i class="fa-solid fa-check text-black mr-2"></i>Impact reports showcasing your company's contribution</li>
+          <li><i class="fa-solid fa-check text-black mr-2"></i>Customized partnership programs aligned with your CSR goals</li>
+        </ul>
+        
+        <a href="contact.html" class="inline-block mt-8 bg-[#002B5B] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#003d7a] transition">
+          Contact Us About Partnerships
+        </a>
+      </div>
+    </div>
+  </section>
+  
+<!-- Host a Fundraiser -->
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B] mb-8">Host a Fundraiser</h2>
+      <p class="text-lg text-gray-700 mb-8">
+        Organize your own fundraising event and help us reach more communities. Here are some ideas to get you started:
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4">
+        <div class="bg-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-105 cursor-pointer">
+          Birthday Fundraiser
+        </div>
+        <div class="bg-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-105 cursor-pointer">
+          Charity Run/Walk
+        </div>
+        <div class="bg-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-105 cursor-pointer">
+          Art Auction
+        </div>
+        <div class="bg-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-105 cursor-pointer">
+          Dinner Party
+        </div>
+      </div>
+
+      <div class="text-center mt-8">
+        <a href="contact.html" class="inline-block bg-[#FFD700] text-[#002B5B] px-8 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition">
+          Get Fundraising Resources
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-[#002B5B] text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <img src="images/logo.webp" alt="NGO Foundation Logo" class="h-32 ">
+
+                    <p class="text-gray-300">Empowering dreams. Lighting futures.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-[#FFD700] transition">About Us</a></li>
+                        <li><a href="programs.html" class="text-gray-300 hover:text-[#FFD700] transition">Programs</a></li>
+                        <li><a href="news.html" class="text-gray-300 hover:text-[#FFD700] transition">News & Stories</a></li>
+                        <li><a href="gallery.html" class="text-gray-300 hover:text-[#FFD700] transition">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Get Involved</h4>
+                    <ul class="space-y-2">
+                        <li><a href="get-involved.html" class="text-gray-300 hover:text-[#FFD700] transition">Volunteer</a></li>
+                        <li><a href="get-involved.html#donate" class="text-gray-300 hover:text-[#FFD700] transition">Donate</a></li>
+                        <li><a href="get-involved.html#partners" class="text-gray-300 hover:text-[#FFD700] transition">Partnerships</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-[#FFD700] transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300 text-sm">
+                <p>&copy; 2024 Reach for the Stars Foundation. All rights reserved.</p>
+                <p class="mt-2">Registered NGO | <a href="#" class="hover:text-[#FFD700]">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('volunteer-form')?.addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your interest in volunteering! We will contact you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
+
+

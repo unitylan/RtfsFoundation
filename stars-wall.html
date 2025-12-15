@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars Wall - Reach for the Stars Foundation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-lato bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-[#002B5B] text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <span class="text-2xl">⭐</span>
+                    <a href="index.html" class="text-xl font-bold font-poppins">Reach for the Stars</a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="hover:text-[#FFD700] transition">Home</a>
+                    <a href="about.html" class="hover:text-[#FFD700] transition">About Us</a>
+                    <a href="programs.html" class="hover:text-[#FFD700] transition">Programs</a>
+                    <a href="get-involved.html" class="hover:text-[#FFD700] transition">Get Involved</a>
+                    <a href="news.html" class="hover:text-[#FFD700] transition">News & Stories</a>
+                    <a href="gallery.html" class="hover:text-[#FFD700] transition">Gallery</a>
+                    <a href="contact.html" class="hover:text-[#FFD700] transition">Contact</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-2xl">☰</button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="index.html" class="block py-2 hover:text-[#FFD700]">Home</a>
+                <a href="about.html" class="block py-2 hover:text-[#FFD700]">About Us</a>
+                <a href="programs.html" class="block py-2 hover:text-[#FFD700]">Programs</a>
+                <a href="get-involved.html" class="block py-2 hover:text-[#FFD700]">Get Involved</a>
+                <a href="news.html" class="block py-2 hover:text-[#FFD700]">News & Stories</a>
+                <a href="gallery.html" class="block py-2 hover:text-[#FFD700]">Gallery</a>
+                <a href="contact.html" class="block py-2 hover:text-[#FFD700]">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-[#002B5B] to-[#003d7a] text-white py-16 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-30">
+            <div class="stars-bg"></div>
+        </div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h1 class="text-4xl md:text-5xl font-bold font-poppins mb-4">Stars Wall</h1>
+            <p class="text-xl text-gray-200">Honoring our donors and supporters who help light the way</p>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <p class="text-lg text-gray-700 mb-6">
+                    Every donation, no matter the size, helps us reach more children and communities. This wall represents the collective light of all our supporters - each star shining brightly, illuminating the path to a brighter future.
+                </p>
+                <p class="text-gray-600">
+                    Thank you to everyone who has contributed to our mission. Your support makes everything possible.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stars Grid -->
+    <section class="py-16 bg-gradient-to-b from-gray-50 to-[#002B5B]">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6" id="stars-container">
+                <!-- Stars will be generated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Supporters -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#002B5B] text-center mb-12">Featured Supporters</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-gradient-to-br from-[#002B5B] to-[#003d7a] text-white p-6 rounded-lg shadow-lg text-center">
+                    <div class="text-5xl mb-4">⭐</div>
+                    <h3 class="text-xl font-bold font-poppins mb-2">Gold Star Donors</h3>
+                    <p class="text-gray-200 mb-4">Donations of R10,000+</p>
+                    <ul class="text-sm space-y-1 text-gray-300">
+                        <li>• Anonymous Donor</li>
+                        <li>• Community Foundation</li>
+                        <li>• Local Business Partners</li>
+                    </ul>
+                </div>
+                <div class="bg-gradient-to-br from-teal-500 to-teal-600 text-white p-6 rounded-lg shadow-lg text-center">
+                    <div class="text-5xl mb-4">⭐</div>
+                    <h3 class="text-xl font-bold font-poppins mb-2">Silver Star Donors</h3>
+                    <p class="text-gray-200 mb-4">Donations of R5,000 - R9,999</p>
+                    <ul class="text-sm space-y-1 text-gray-300">
+                        <li>• Monthly Supporters</li>
+                        <li>• Corporate Partners</li>
+                        <li>• Community Groups</li>
+                    </ul>
+                </div>
+                <div class="bg-gradient-to-br from-[#FFD700] to-yellow-400 text-[#002B5B] p-6 rounded-lg shadow-lg text-center">
+                    <div class="text-5xl mb-4">⭐</div>
+                    <h3 class="text-xl font-bold font-poppins mb-2">Bronze Star Donors</h3>
+                    <p class="text-gray-700 mb-4">Donations of R1,000 - R4,999</p>
+                    <ul class="text-sm space-y-1 text-gray-600">
+                        <li>• Individual Donors</li>
+                        <li>• Volunteer Contributors</li>
+                        <li>• Event Fundraisers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <p class="text-lg text-gray-700 mb-4">Want to see your name on the Stars Wall?</p>
+                <a href="get-involved.html#donate" class="inline-block bg-[#FFD700] text-[#002B5B] px-8 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition">
+                    Make a Donation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#002B5B] text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <span class="text-2xl">⭐</span>
+                        <span class="text-xl font-bold font-poppins">Reach for the Stars</span>
+                    </div>
+                    <p class="text-gray-300">Empowering dreams. Lighting futures.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-[#FFD700] transition">About Us</a></li>
+                        <li><a href="programs.html" class="text-gray-300 hover:text-[#FFD700] transition">Programs</a></li>
+                        <li><a href="news.html" class="text-gray-300 hover:text-[#FFD700] transition">News & Stories</a></li>
+                        <li><a href="gallery.html" class="text-gray-300 hover:text-[#FFD700] transition">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Get Involved</h4>
+                    <ul class="space-y-2">
+                        <li><a href="get-involved.html" class="text-gray-300 hover:text-[#FFD700] transition">Volunteer</a></li>
+                        <li><a href="get-involved.html#donate" class="text-gray-300 hover:text-[#FFD700] transition">Donate</a></li>
+                        <li><a href="get-involved.html#partners" class="text-gray-300 hover:text-[#FFD700] transition">Partnerships</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-[#FFD700] transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold font-poppins mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl">📷</a>
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl">📘</a>
+                        <a href="#" class="text-gray-300 hover:text-[#FFD700] transition text-2xl">💼</a>
+                    </div>
+                    <p class="text-gray-300 text-sm mb-2">Email: <a href="mailto:info@rftsfoundation.org" class="hover:text-[#FFD700]">info@rftsfoundation.org</a></p>
+                    <form class="mt-4">
+                        <input type="email" placeholder="Subscribe to newsletter" class="bg-[#003d7a] text-white px-4 py-2 rounded-lg w-full mb-2 focus:outline-none focus:ring-2 focus:ring-[#FFD700]">
+                        <button type="submit" class="bg-[#FFD700] text-[#002B5B] px-4 py-2 rounded-lg w-full font-semibold hover:bg-yellow-400 transition">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300 text-sm">
+                <p>&copy; 2024 Reach for the Stars Foundation. All rights reserved.</p>
+                <p class="mt-2">Registered NGO | <a href="#" class="hover:text-[#FFD700]">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Generate glowing stars
+        const starsContainer = document.getElementById('stars-container');
+        const starCount = 100; // Number of stars to display
+        
+        for (let i = 0; i < starCount; i++) {
+            const star = document.createElement('div');
+            star.className = 'star-item text-center';
+            star.innerHTML = '⭐';
+            star.style.fontSize = Math.random() * 20 + 20 + 'px';
+            star.style.opacity = Math.random() * 0.5 + 0.5;
+            star.style.animation = `twinkle ${Math.random() * 3 + 2}s infinite`;
+            starsContainer.appendChild(star);
+        }
+
+        // Add twinkle animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes twinkle {
+                0%, 100% { opacity: 0.5; transform: scale(1); }
+                50% { opacity: 1; transform: scale(1.2); }
+            }
+            .star-item {
+                cursor: pointer;
+                transition: transform 0.3s;
+            }
+            .star-item:hover {
+                transform: scale(1.3);
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
+
+
