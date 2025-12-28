@@ -106,4 +106,3 @@ function resetInterval() {
   clearInterval(sliderInterval);
   sliderInterval = setInterval(nextSlide, intervalTime);
 }
-
